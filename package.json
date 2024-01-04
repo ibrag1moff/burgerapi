@@ -1,0 +1,19 @@
+{
+  "name": "burgerapi",
+  "version": "1.0.0",
+  "description": "Burger API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "ibrag1moff",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "uuid": "^9.0.1"
+  }
+}
